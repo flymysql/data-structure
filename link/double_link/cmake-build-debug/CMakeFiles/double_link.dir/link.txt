@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/double_link.dir/main.cpp.o  -o double_link 
