@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/levy/git/data_structure/link/single_link/linklist.h
+iostream
+-
+
+/home/levy/git/data_structure/link/single_link/main.cpp
+iostream
+-
+linklist.h
+/home/levy/git/data_structure/link/single_link/linklist.h
+

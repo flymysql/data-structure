@@ -53,11 +53,15 @@ public:
 template<class T>
 link<T> *linklist<T>::setPos(const int p) {
     link<T> *curr = head;
-    for (int i = p - 1; i > 0; i--) {
+    for (int i = p; i > 0; i--) {
         curr = curr->next;
         if (curr == NULL)return nullptr;
     }
     return curr;
+}
+
+template<class T>
+linklist<T>::~linklist() {
 }
 
 template<class T>
@@ -69,43 +73,43 @@ linklist<T>::linklist() {
 
 template<class T>
 linklist<T>::linklist(int s) {
-    head = new link<T>(s, NULL);
-    head->next = NULL;
-    tail = head;
-}
-
-template<class T>
-linklist<T>::~linklist() {
-
+    head = new link<T>(0, NULL);
+    head->next = new link<T>(s, NULL);
+    head->data++;
+    tail = head->next;
 }
 
 template<class T>
 bool linklist<T>::isEmpty() {
-    if (tail == head)return true;
+    if (head->next == NULL)return true;
     return false;
 }
 
 template<class T>
 void linklist<T>::clear() {
-
+    link<T> *curr = head->next;
+    link<T> *temp = curr->next;
+    while (curr != NULL) {
+        delete curr;
+        curr = temp;
+        temp=temp->next;
+    }
+    tail = head;
+    head->data = 0;
 }
 
 template<class T>
 int linklist<T>::length() {
-    link<T> *curr = head;
-    int i = 1;
-    for (; curr->next != NULL; i++)
-        curr = curr->next;
-    return i;
+    return head->data;
 }
 
 template<class T>
 bool linklist<T>::append(const T value) {
-    link<T> *p, *q;
-    p = tail;
-    q = new link<T>(value, p->next);
-    p->next = q;
+    link<T> *q;
+    q = new link<T>(value, NULL);
+    tail->next = q;
     tail = q;
+    head->data++;
     return true;
 }
 
@@ -120,22 +124,26 @@ bool linklist<T>::insert(const int p, const T value) {
     m->next = n;
     if (m == tail)
         tail = n;
+    head->data++;
     return true;
 }
 
 template<class T>
 bool linklist<T>::delet(const int p) {
-    link<T> *m;
+    link<T> *m, *n;
     if ((m = setPos(p - 1)) == NULL || m == tail) {
         cout << "非法删除点" << endl;
         return false;
     }
-    if (m->next == tail) {
+    n = m->next;
+    if (n == tail) {
         tail = m;
         m->next = NULL;
     } else
-        m->next = m->next->next;
-    delete m->next;
+        m->next = n->next;
+    delete n;
+    head->data--;
+    return true;
 }
 
 template<class T>
@@ -153,7 +161,7 @@ template<class T>
 bool linklist<T>::getPos(int &p, const T value) {
     link<T> *curr;
     curr = head;
-    int i = 1;
+    int i = 0;
     for (; curr != NULL; i++) {
         if (curr->data == value) {
             p = i;
@@ -167,7 +175,7 @@ bool linklist<T>::getPos(int &p, const T value) {
 template<class T>
 void linklist<T>::show() {
     link<T> *curr;
-    curr = head;
+    curr = head->next;
     for (; curr != NULL; curr = curr->next)
         cout << curr->data << endl;
 }

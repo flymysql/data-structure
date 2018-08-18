@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/single_link.dir/main.cpp.o  -o single_link 
