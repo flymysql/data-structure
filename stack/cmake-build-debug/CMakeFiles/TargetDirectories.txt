@@ -1,0 +1,3 @@
+/home/levy/git/data_structure/stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/levy/git/data_structure/stack/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/levy/git/data_structure/stack/cmake-build-debug/CMakeFiles/stack.dir

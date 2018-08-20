@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/levy/git/data_structure/stack/Stack.h
+
+/home/levy/git/data_structure/stack/arrStack.h
+iostream
+-
+Stack.h
+/home/levy/git/data_structure/stack/Stack.h
+
+/home/levy/git/data_structure/stack/linkStack.h
+iostream
+-
+Stack.h
+/home/levy/git/data_structure/stack/Stack.h
+
+/home/levy/git/data_structure/stack/main.cpp
+iostream
+-
+arrStack.h
+/home/levy/git/data_structure/stack/arrStack.h
+linkStack.h
+/home/levy/git/data_structure/stack/linkStack.h
+
