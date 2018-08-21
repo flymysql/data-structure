@@ -13,8 +13,6 @@
 #include "Queue.h"
 #include "../link/link.h"
 
-using namespace std;
-
 template<class T>
 class linkQueue : public Queue<T> {
 private:

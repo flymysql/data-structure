@@ -13,7 +13,6 @@
 #include "Queue.h"
 
 #define Default_size 100
-using namespace std;
 
 template<class T>
 class arrQueue : public Queue<T> {
