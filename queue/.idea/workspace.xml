@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="stack" targetName="stack" />
+      <config projectName="queue" targetName="queue" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26fd9927-b8a4-41ec-ab96-89c1be8f31f3" name="Default" comment="" />
+    <list default="true" id="287da717-2ee5-4eae-b773-af39c076b34c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,71 +22,73 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+      <file leaf-file-name="Queue.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Queue.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="290">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="e#296#315#0" expanded="true" />
+                <element signature="e#363#372#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stack.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Stack.h">
+      <file leaf-file-name="arrQueue.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arrQueue.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="435">
+              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding>
-                <element signature="e#364#373#0" expanded="true" />
+                <element signature="e#363#382#0" expanded="true" />
+                <element signature="e#433#442#0" expanded="true" />
+                <element signature="e#712#721#0" expanded="true" />
+                <element signature="e#765#774#0" expanded="true" />
+                <element signature="e#1251#1260#0" expanded="true" />
+                <element signature="e#1320#1329#0" expanded="true" />
+                <element signature="e#1416#1425#0" expanded="true" />
+                <element signature="e#1507#1516#0" expanded="true" />
+                <element signature="e#1600#1609#0" expanded="true" />
+                <element signature="e#1680#1689#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arrStack.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arrStack.h">
+      <file leaf-file-name="linkQueue.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linkQueue.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1421">
-              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+            <state relative-caret-position="551">
+              <caret line="73" column="33" lean-forward="true" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
               <folding>
-                <element signature="e#364#383#0" expanded="true" />
-                <element signature="e#415#418#0" expanded="true" />
-                <element signature="e#993#1002#0" expanded="true" />
-                <element signature="e#1062#1071#0" expanded="true" />
-                <element signature="e#1152#1161#0" expanded="true" />
-                <element signature="e#1235#1244#0" expanded="true" />
-                <element signature="e#1318#1327#0" expanded="true" />
-                <element signature="e#1398#1407#0" expanded="true" />
+                <element signature="e#367#386#0" expanded="true" />
+                <element signature="e#463#472#0" expanded="true" />
+                <element signature="e#949#958#0" expanded="true" />
+                <element signature="e#999#1008#0" expanded="true" />
+                <element signature="e#1050#1059#0" expanded="true" />
+                <element signature="e#1120#1129#0" expanded="true" />
+                <element signature="e#1217#1226#0" expanded="true" />
+                <element signature="e#1309#1318#0" expanded="true" />
+                <element signature="e#1403#1412#0" expanded="true" />
+                <element signature="e#1484#1493#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linkStack.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkStack.h">
+      <file leaf-file-name="farmer_wolf.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/farmer_wolf.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3277">
-              <caret line="113" column="17" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+            <state relative-caret-position="-769">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
               <folding>
-                <element signature="e#366#385#0" expanded="true" />
-                <element signature="e#436#439#0" expanded="true" />
-                <element signature="e#436#439#0" expanded="true" />
-                <element signature="e#1074#1083#0" expanded="true" />
-                <element signature="e#1125#1134#0" expanded="true" />
-                <element signature="e#1410#1419#0" expanded="true" />
-                <element signature="e#1533#1542#0" expanded="true" />
-                <element signature="e#1793#1802#0" expanded="true" />
-                <element signature="e#1974#1983#0" expanded="true" />
-                <element signature="e#2093#2102#0" expanded="true" />
+                <element signature="e#318#337#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,10 +99,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Stack.h" />
-        <option value="$PROJECT_DIR$/arrStack.h" />
-        <option value="$PROJECT_DIR$/linkStack.h" />
+        <option value="$PROJECT_DIR$/Queue.h" />
+        <option value="$PROJECT_DIR$/linkQueue.h" />
+        <option value="$PROJECT_DIR$/arrQueue.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/farmer_wolf.cpp" />
       </list>
     </option>
   </component>
@@ -113,7 +116,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="349" />
     <option name="y" value="25" />
     <option name="width" value="1390" />
@@ -145,9 +148,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.stack">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="stack" RUN_TARGET_NAME="stack" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="stack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stack" TARGET_NAME="stack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="stack" RUN_TARGET_NAME="stack" />
+  <component name="RunManager" selected="Application.queue">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="queue" RUN_TARGET_NAME="queue" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="queue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="queue" TARGET_NAME="queue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="queue" RUN_TARGET_NAME="queue" />
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -236,7 +239,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.stack" />
+      <item itemvalue="Application.queue" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -244,41 +247,40 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="26fd9927-b8a4-41ec-ab96-89c1be8f31f3" name="Default" comment="" />
-      <created>1534739590016</created>
+      <changelist id="287da717-2ee5-4eae-b773-af39c076b34c" name="Default" comment="" />
+      <created>1534815206603</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1534739590016</updated>
-      <workItem from="1534739591791" duration="5399000" />
-      <workItem from="1534814958768" duration="247000" />
+      <updated>1534815206603</updated>
+      <workItem from="1534815208311" duration="8780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5646000" />
+    <option name="totallyTimeSpent" value="8780000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13576333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16006339" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CMake" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.3293348" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3293348" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,124 +291,91 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/farmer_wolf.cpp</url>
+          <line>69</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stack.h">
+    <entry file="file:///usr/include/link.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="-2494">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
-            <element signature="e#364#373#0" expanded="true" />
+            <element signature="e#927#948#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arrStack.h">
+    <entry file="file://$PROJECT_DIR$/Queue.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1421">
-          <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        <state relative-caret-position="290">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#364#383#0" expanded="true" />
-            <element signature="e#415#418#0" expanded="true" />
-            <element signature="e#993#1002#0" expanded="true" />
-            <element signature="e#1062#1071#0" expanded="true" />
-            <element signature="e#1152#1161#0" expanded="true" />
-            <element signature="e#1235#1244#0" expanded="true" />
-            <element signature="e#1318#1327#0" expanded="true" />
-            <element signature="e#1398#1407#0" expanded="true" />
+            <element signature="e#363#372#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linkStack.h">
+    <entry file="file://$PROJECT_DIR$/arrQueue.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3277">
-          <caret line="113" column="17" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+        <state relative-caret-position="435">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding>
-            <element signature="e#366#385#0" expanded="true" />
-            <element signature="e#436#439#0" expanded="true" />
-            <element signature="e#436#439#0" expanded="true" />
-            <element signature="e#1074#1083#0" expanded="true" />
-            <element signature="e#1125#1134#0" expanded="true" />
-            <element signature="e#1410#1419#0" expanded="true" />
-            <element signature="e#1533#1542#0" expanded="true" />
-            <element signature="e#1793#1802#0" expanded="true" />
-            <element signature="e#1974#1983#0" expanded="true" />
-            <element signature="e#2093#2102#0" expanded="true" />
+            <element signature="e#363#382#0" expanded="true" />
+            <element signature="e#433#442#0" expanded="true" />
+            <element signature="e#712#721#0" expanded="true" />
+            <element signature="e#765#774#0" expanded="true" />
+            <element signature="e#1251#1260#0" expanded="true" />
+            <element signature="e#1320#1329#0" expanded="true" />
+            <element signature="e#1416#1425#0" expanded="true" />
+            <element signature="e#1507#1516#0" expanded="true" />
+            <element signature="e#1600#1609#0" expanded="true" />
+            <element signature="e#1680#1689#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding>
-            <element signature="e#296#315#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="203">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack.h">
+    <entry file="file://$PROJECT_DIR$/farmer_wolf.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="-769">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
           <folding>
-            <element signature="e#364#373#0" expanded="true" />
+            <element signature="e#318#337#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arrStack.h">
+    <entry file="file://$PROJECT_DIR$/linkQueue.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1421">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        <state relative-caret-position="551">
+          <caret line="73" column="33" lean-forward="true" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
           <folding>
-            <element signature="e#364#383#0" expanded="true" />
-            <element signature="e#415#418#0" expanded="true" />
-            <element signature="e#993#1002#0" expanded="true" />
-            <element signature="e#1062#1071#0" expanded="true" />
-            <element signature="e#1152#1161#0" expanded="true" />
-            <element signature="e#1235#1244#0" expanded="true" />
-            <element signature="e#1318#1327#0" expanded="true" />
-            <element signature="e#1398#1407#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkStack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3277">
-          <caret line="113" column="17" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
-          <folding>
-            <element signature="e#366#385#0" expanded="true" />
-            <element signature="e#436#439#0" expanded="true" />
-            <element signature="e#436#439#0" expanded="true" />
-            <element signature="e#1074#1083#0" expanded="true" />
-            <element signature="e#1125#1134#0" expanded="true" />
-            <element signature="e#1410#1419#0" expanded="true" />
-            <element signature="e#1533#1542#0" expanded="true" />
-            <element signature="e#1793#1802#0" expanded="true" />
-            <element signature="e#1974#1983#0" expanded="true" />
-            <element signature="e#2093#2102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#296#315#0" expanded="true" />
+            <element signature="e#367#386#0" expanded="true" />
+            <element signature="e#463#472#0" expanded="true" />
+            <element signature="e#949#958#0" expanded="true" />
+            <element signature="e#999#1008#0" expanded="true" />
+            <element signature="e#1050#1059#0" expanded="true" />
+            <element signature="e#1120#1129#0" expanded="true" />
+            <element signature="e#1217#1226#0" expanded="true" />
+            <element signature="e#1309#1318#0" expanded="true" />
+            <element signature="e#1403#1412#0" expanded="true" />
+            <element signature="e#1484#1493#0" expanded="true" />
           </folding>
         </state>
       </provider>
