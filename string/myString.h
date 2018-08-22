@@ -8,9 +8,7 @@
 
 #ifndef STRING_STRING_H
 #define STRING_STRING_H
-
 #include <iostream>
-#include <string.h>
 
 class String {
 private:
@@ -24,6 +22,7 @@ public:
     String(const String &rs);                    //复制构造函数,默认是浅层复制,需重载
     char &operator[](unsigned int length);       //重载下标运算符[]
     char operator[](unsigned int length) const;   //重载下标运算符[](const版本)
+    void enlarge();
     String &operator=(const String &rs);         //重载复制运算符=，用于两个字符串之间的赋值
     String operator+(const String &rs);          //重载加法运算符+
     String operator+=(const String &rs);                                //重载组合运算符+=
@@ -33,9 +32,12 @@ public:
     friend bool operator>(const String &str1, const String &str2);        //重载大于运算符>
     friend bool operator==(const String &str1, const String &str2);       //重载等于运算符==
     unsigned int getlen() const;                                           //获取字符串长度
+    int length();                                                           //获取字符串长度，并检查
     const char *getstr() const;                                             //获取字符串
     String substr(const int st, int count);
-
+    friend int strstr(const String p, const String t, const int start = 0);     //简单的字符串匹配
+//    friend int kmp_find(const String p, const String t, const int start = 0); //kmp模式匹配
+  //  friend int * get_next(const String p);                                    //获取字符串特征向量
 };
 
 String::String() {
@@ -52,11 +54,11 @@ String::~String() {
 String::String(const char *const cstr) {
     int i = 0;
     for (; *(cstr + i) != '\0'; i++);
-    size = i;
+    size = i ;
     s = new char[size];
-    for (int j = 0; j < size; j++)
+    for (int j = 0; j < size ; j++)
         s[j] = *(cstr + j);
-    s[size] = '\0';
+    s[size + 1] = '\0';
 }
 
 String::String(const String &rs) {
@@ -111,6 +113,7 @@ std::ostream &operator<<(std::ostream &output, const String &str) {
 }
 
 std::istream &operator>>(std::istream &input, String &str) {
+    str.enlarge();
     input >> str.s;
     return input;
 }
@@ -152,13 +155,38 @@ const char *String::getstr() const {
 }
 
 String String::substr(const int st, int count) {
-    if(count>size-st)
-        count=size-st;
+    if (count > size - st)
+        count = size - st;
     char new_s[count];
-    for(int i=0;i<count;i++)
-        new_s[i]=s[st+i];
-    new_s[count]='\0';
+    for (int i = 0; i < count; i++)
+        new_s[i] = s[st + i];
+    new_s[count] = '\0';
     return String(new_s);
+}
+
+int strstr(const String p, const String t, const int start) {
+    int len_p = p.getlen(), len_t = t.getlen();
+    for (int i = start, j = 0; i < len_p - len_t; i++) {
+        for (j = 0; p[i+j] == t[j] && j < len_t; j++);
+        if (j == len_t)
+            return i;
+    }
+    return -1;
+}
+
+void String::enlarge() {
+    if(size==0)
+    delete [] s;
+    s=new char[128];
+}
+
+int String::length() {
+    if(size==0&&s[0]!='\0'){
+        int i=0;
+        for(;s[i]!='\0';i++);
+        size=i;
+    }
+    return size;
 }
 
 #endif //STRING_STRING_H
