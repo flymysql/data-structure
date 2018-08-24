@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="queue" targetName="queue" />
+      <config projectName="tree" targetName="tree" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="287da717-2ee5-4eae-b773-af39c076b34c" name="Default" comment="" />
+    <list default="true" id="44e6f41b-9e24-4acc-af39-c79dce7eaae0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,52 +28,47 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Queue.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Queue.h">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arrQueue.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arrQueue.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="290">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="e#363#382#0" expanded="true" />
-                <element signature="e#433#442#0" expanded="true" />
-                <element signature="e#712#721#0" expanded="true" />
-                <element signature="e#765#774#0" expanded="true" />
-                <element signature="e#1251#1260#0" expanded="true" />
-                <element signature="e#1320#1329#0" expanded="true" />
-                <element signature="e#1416#1425#0" expanded="true" />
-                <element signature="e#1507#1516#0" expanded="true" />
-                <element signature="e#1600#1609#0" expanded="true" />
-                <element signature="e#1680#1689#0" expanded="true" />
+                <element signature="e#296#315#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linkQueue.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkQueue.h">
+      <file leaf-file-name="BinaryTree.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BinaryTree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="farmer_wolf.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/farmer_wolf.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="1638">
+              <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
               <folding>
-                <element signature="e#318#337#0" expanded="true" />
+                <element signature="e#415#424#0" expanded="true" />
+                <element signature="e#1074#1083#0" expanded="true" />
+                <element signature="e#1188#1197#0" expanded="true" />
+                <element signature="e#1266#1275#0" expanded="true" />
+                <element signature="e#1365#1374#0" expanded="true" />
+                <element signature="e#1465#1474#0" expanded="true" />
+                <element signature="e#1547#1556#0" expanded="true" />
+                <element signature="e#1630#1639#0" expanded="true" />
+                <element signature="e#1701#1710#0" expanded="true" />
+                <element signature="e#1781#1790#0" expanded="true" />
+                <element signature="e#1982#1991#0" expanded="true" />
+                <element signature="e#3090#3099#0" expanded="true" />
+                <element signature="e#3162#3171#0" expanded="true" />
+                <element signature="e#3239#3248#0" expanded="true" />
+                <element signature="e#3351#3360#0" expanded="true" />
+                <element signature="e#3468#3477#0" expanded="true" />
+                <element signature="e#3586#3595#0" expanded="true" />
+                <element signature="e#3707#3716#0" expanded="true" />
+                <element signature="e#3785#3794#0" expanded="true" />
+                <element signature="e#3862#3871#0" expanded="true" />
+                <element signature="e#3941#3950#0" expanded="true" />
+                <element signature="e#4021#4030#0" expanded="true" />
+                <element signature="e#4376#4385#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,11 +79,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Queue.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/farmer_wolf.cpp" />
-        <option value="$PROJECT_DIR$/linkQueue.h" />
-        <option value="$PROJECT_DIR$/arrQueue.h" />
+        <option value="$PROJECT_DIR$/BinaryTree.h" />
       </list>
     </option>
   </component>
@@ -112,13 +104,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../queue" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -134,9 +126,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.queue">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="queue" RUN_TARGET_NAME="queue" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="queue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="queue" TARGET_NAME="queue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="queue" RUN_TARGET_NAME="queue" />
+  <component name="RunManager" selected="Application.tree">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tree" RUN_TARGET_NAME="tree" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="tree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tree" TARGET_NAME="tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tree" RUN_TARGET_NAME="tree" />
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -225,7 +217,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.queue" />
+      <item itemvalue="Application.tree" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -233,30 +225,29 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="287da717-2ee5-4eae-b773-af39c076b34c" name="Default" comment="" />
-      <created>1534815206603</created>
+      <changelist id="44e6f41b-9e24-4acc-af39-c79dce7eaae0" name="Default" comment="" />
+      <created>1534927308944</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1534815206603</updated>
-      <workItem from="1534815208311" duration="10029000" />
-      <workItem from="1535009733861" duration="677000" />
-      <workItem from="1535096316053" duration="158000" />
+      <updated>1534927308944</updated>
+      <workItem from="1534927310383" duration="5228000" />
+      <workItem from="1535009666995" duration="64000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10864000" />
+    <option name="totallyTimeSpent" value="5292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16006339" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17168516" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CMake" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -279,159 +270,103 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>13</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Queue.h">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrQueue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#363#382#0" expanded="true" />
-            <element signature="e#433#442#0" expanded="true" />
-            <element signature="e#712#721#0" expanded="true" />
-            <element signature="e#765#774#0" expanded="true" />
-            <element signature="e#1251#1260#0" expanded="true" />
-            <element signature="e#1320#1329#0" expanded="true" />
-            <element signature="e#1416#1425#0" expanded="true" />
-            <element signature="e#1507#1516#0" expanded="true" />
-            <element signature="e#1600#1609#0" expanded="true" />
-            <element signature="e#1680#1689#0" expanded="true" />
+            <element signature="e#296#315#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linkQueue.h">
+    <entry file="file://$PROJECT_DIR$/BinaryTree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/farmer_wolf.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="4176">
+          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
           <folding>
-            <element signature="e#318#337#0" expanded="true" />
+            <element signature="e#415#424#0" expanded="true" />
+            <element signature="e#1074#1083#0" expanded="true" />
+            <element signature="e#1188#1197#0" expanded="true" />
+            <element signature="e#1266#1275#0" expanded="true" />
+            <element signature="e#1365#1374#0" expanded="true" />
+            <element signature="e#1465#1474#0" expanded="true" />
+            <element signature="e#1547#1556#0" expanded="true" />
+            <element signature="e#1630#1639#0" expanded="true" />
+            <element signature="e#1701#1710#0" expanded="true" />
+            <element signature="e#1781#1790#0" expanded="true" />
+            <element signature="e#1982#1991#0" expanded="true" />
+            <element signature="e#3090#3099#0" expanded="true" />
+            <element signature="e#3162#3171#0" expanded="true" />
+            <element signature="e#3239#3248#0" expanded="true" />
+            <element signature="e#3351#3360#0" expanded="true" />
+            <element signature="e#3468#3477#0" expanded="true" />
+            <element signature="e#3586#3595#0" expanded="true" />
+            <element signature="e#3707#3716#0" expanded="true" />
+            <element signature="e#3785#3794#0" expanded="true" />
+            <element signature="e#3862#3871#0" expanded="true" />
+            <element signature="e#3941#3950#0" expanded="true" />
+            <element signature="e#4021#4030#0" expanded="true" />
+            <element signature="e#4376#4385#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Queue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrQueue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#363#382#0" expanded="true" />
-            <element signature="e#433#442#0" expanded="true" />
-            <element signature="e#712#721#0" expanded="true" />
-            <element signature="e#765#774#0" expanded="true" />
-            <element signature="e#1251#1260#0" expanded="true" />
-            <element signature="e#1320#1329#0" expanded="true" />
-            <element signature="e#1416#1425#0" expanded="true" />
-            <element signature="e#1507#1516#0" expanded="true" />
-            <element signature="e#1600#1609#0" expanded="true" />
-            <element signature="e#1680#1689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkQueue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/farmer_wolf.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#318#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/link.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2494">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrQueue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="290">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#363#382#0" expanded="true" />
-            <element signature="e#433#442#0" expanded="true" />
-            <element signature="e#712#721#0" expanded="true" />
-            <element signature="e#765#774#0" expanded="true" />
-            <element signature="e#1251#1260#0" expanded="true" />
-            <element signature="e#1320#1329#0" expanded="true" />
-            <element signature="e#1416#1425#0" expanded="true" />
-            <element signature="e#1507#1516#0" expanded="true" />
-            <element signature="e#1600#1609#0" expanded="true" />
-            <element signature="e#1680#1689#0" expanded="true" />
+            <element signature="e#296#315#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linkQueue.h">
+    <entry file="file://$PROJECT_DIR$/BinaryTree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/farmer_wolf.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="1638">
+          <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
           <folding>
-            <element signature="e#318#337#0" expanded="true" />
+            <element signature="e#415#424#0" expanded="true" />
+            <element signature="e#1074#1083#0" expanded="true" />
+            <element signature="e#1188#1197#0" expanded="true" />
+            <element signature="e#1266#1275#0" expanded="true" />
+            <element signature="e#1365#1374#0" expanded="true" />
+            <element signature="e#1465#1474#0" expanded="true" />
+            <element signature="e#1547#1556#0" expanded="true" />
+            <element signature="e#1630#1639#0" expanded="true" />
+            <element signature="e#1701#1710#0" expanded="true" />
+            <element signature="e#1781#1790#0" expanded="true" />
+            <element signature="e#1982#1991#0" expanded="true" />
+            <element signature="e#3090#3099#0" expanded="true" />
+            <element signature="e#3162#3171#0" expanded="true" />
+            <element signature="e#3239#3248#0" expanded="true" />
+            <element signature="e#3351#3360#0" expanded="true" />
+            <element signature="e#3468#3477#0" expanded="true" />
+            <element signature="e#3586#3595#0" expanded="true" />
+            <element signature="e#3707#3716#0" expanded="true" />
+            <element signature="e#3785#3794#0" expanded="true" />
+            <element signature="e#3862#3871#0" expanded="true" />
+            <element signature="e#3941#3950#0" expanded="true" />
+            <element signature="e#4021#4030#0" expanded="true" />
+            <element signature="e#4376#4385#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Queue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
